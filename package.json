@@ -1,0 +1,14 @@
+{
+  "name": "alpine-tw",
+  "version": "1.0.0",
+  "description": "Alpine.js + tailwindcss + Material Symbols",
+  "main": "main.js",
+  "scripts": {
+    "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Kentaro Furukawa",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
